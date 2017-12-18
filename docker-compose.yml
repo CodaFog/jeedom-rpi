@@ -5,7 +5,7 @@ services:
   jeedom-mysql:
       container_name: jeedom-mysql
       image: hypriot/rpi-mysql
-      #restart: always 
+      restart: always 
       environment:
           - MYSQL_ROOT_PASSWORD=password
       volumes:
@@ -15,7 +15,7 @@ services:
   jeedom:
       container_name: jeedom
       image: codafog/jeedom-rpi
-      #restart: always
+      restart: always
       privileged: true
       environment:
           - ROOT_PASSWORD=jeedom
