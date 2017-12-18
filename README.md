@@ -1,5 +1,6 @@
 # jeedom-rpi
-A Jeedom Docker image for Raspberry Pi based on Resin Debian and Hypriot mysql images
+A Jeedom Docker image for Raspberry Pi based on Resin Debian and Hypriot mysql images.
+
 
 
 This repository contains **Dockerfile** of a dockerized [Jeedom](https://www.jeedom.com) based on a Resin image. The mysql database is based on Hypriot mysql image.
